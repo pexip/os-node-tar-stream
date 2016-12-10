@@ -1,0 +1,5 @@
+package.json usr/lib/nodejs/tar-stream/
+extract.js usr/lib/nodejs/tar-stream/
+headers.js usr/lib/nodejs/tar-stream/
+index.js usr/lib/nodejs/tar-stream/
+pack.js usr/lib/nodejs/tar-stream/

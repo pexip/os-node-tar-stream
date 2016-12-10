@@ -1,0 +1,5 @@
+node-tar-stream (1.5.2-1) unstable; urgency=medium
+
+  * Initial release (Closes: #753287)
+
+ -- Paolo Greppi <paolo.greppi@libpf.com>  Sat, 10 Dec 2016 07:36:22 +0100

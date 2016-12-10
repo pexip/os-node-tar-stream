@@ -1,0 +1,37 @@
+Description: readable-stream is only needed for node.js 0.8 compat
+Author:
+ Andrew Kelley <superjoe30@gmail.com>,
+ Paolo Greppi <paolo.greppi@libpf.com>
+Forwarded: not-needed
+Last-Update: 2016-11-29
+
+Index: node-tar-stream/extract.js
+===================================================================
+--- node-tar-stream.orig/extract.js
++++ node-tar-stream/extract.js
+@@ -3,8 +3,8 @@ var bl = require('bl')
+ var xtend = require('xtend')
+ var headers = require('./headers')
+ 
+-var Writable = require('readable-stream').Writable
+-var PassThrough = require('readable-stream').PassThrough
++var Writable = require('stream').Writable
++var PassThrough = require('stream').PassThrough
+ 
+ var noop = function () {}
+ 
+Index: node-tar-stream/pack.js
+===================================================================
+--- node-tar-stream.orig/pack.js
++++ node-tar-stream/pack.js
+@@ -2,8 +2,8 @@ var constants = require('constants')
+ var eos = require('end-of-stream')
+ var util = require('util')
+ 
+-var Readable = require('readable-stream').Readable
+-var Writable = require('readable-stream').Writable
++var Readable = require('stream').Readable
++var Writable = require('stream').Writable
+ var StringDecoder = require('string_decoder').StringDecoder
+ 
+ var headers = require('./headers')
