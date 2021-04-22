@@ -1,0 +1,14 @@
+Make tar-stream compatible with nodejs 14
+
+From https://github.com/mafintosh/tar-stream/commit/9468256b1d5f211ab29a85a8bcd9e12579c05def
+--- a/extract.js
++++ b/extract.js
+@@ -29,7 +29,7 @@
+ var Source = function (self, offset) {
+   this._parent = self
+   this.offset = offset
+-  PassThrough.call(this)
++  PassThrough.call(this, { autoDestroy: false })
+ }
+ 
+ util.inherits(Source, PassThrough)

@@ -1,6 +1,7 @@
 node-tar-stream (1.5.2-1pexip1) pexip; urgency=medium
 
   * Prepare Pexip packaging
+  * Add patch for nodejs 14 compatibility to allow yarn to work.
 
  -- Mark Hymers <mark.hymers@pexip.com>  Thu, 22 Apr 2021 14:18:19 +0000
 
