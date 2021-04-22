@@ -1,8 +1,9 @@
 Source: node-tar-stream
 Section: web
 Priority: extra
-Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
-Uploaders: Paolo Greppi <paolo.greppi@libpf.com>
+Maintainer: Pexip AS <packaging@pexip.com>
+XSBC-Pexip-Original-Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+XSBC-Pexip-Original-Uploaders: Paolo Greppi <paolo.greppi@libpf.com>
 Build-Depends:
  debhelper (>= 9)
  , dh-buildinfo
@@ -14,6 +15,7 @@ Standards-Version: 3.9.8
 Homepage: https://github.com/mafintosh/tar-stream
 Vcs-Git: https://anonscm.debian.org/git/pkg-javascript/node-tar-stream.git
 Vcs-Browser: https://anonscm.debian.org/git/pkg-javascript/node-tar-stream.git
+XS-Pexip-Upstream: http://ftp.debian.org/debian/ stretch
 
 Package: node-tar-stream
 Architecture: all
